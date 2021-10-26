@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/servlet-api.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/jasper.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/jsp-api.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/el-api.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/annotations-api.jar"/>
+	<classpathentry kind="src" path="WEB-INF/src"/>
+	<classpathentry kind="src" output="work" path="work"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/mysql-connector-java-5.0.3-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="WEB-INF/lib/cos.jar"/>
+	<classpathentry kind="output" path="WEB-INF/classes"/>
+</classpath>
