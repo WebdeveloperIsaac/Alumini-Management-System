@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>AMS</title>
+<title>AMS-Isaac</title>
 <link rel="stylesheet" href="./css/stylesheet.css" >
 </head>
 <body>
     <h1>Akshaya Institute Of Technology</h1>
-    <h2>Alumini Management System</h2>
+    <h2>Alumini Management System By Isaac</h2>
     <div class="main">
       <div class="sub-main"><a href="adminlogin.jsp">
         <button class="button-one">Admin Login</button></a>
