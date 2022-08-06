@@ -1,0 +1,73 @@
+body {
+  padding: 0;
+  margin: 0;
+  /* background: linear-gradient(45deg, #c6ea8d, #fe90af) fixed; */
+  background-image: url("/img/england.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+h1,
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 30px;
+  margin: 20px;
+}
+.btns {
+  padding: 10px;
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:link {
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+}
+a:active {
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(251, 0, 0);
+}
+.events-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 25px;
+  background: linear-gradient(45deg, #1eae98, #d8b5ff);
+}
+.jobs-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 25px;
+  background: linear-gradient(45deg, #ff61d2, #fe9090);
+}
+.alumini-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  background: linear-gradient(45deg, #1eae98, #d8b5ff);
+}
+.students-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 25px;
+  background: linear-gradient(45deg, #ff61d2, #fe9090);
+}
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 25px;
+  background: linear-gradient(45deg, #1eae98, #d8b5ff);
+}

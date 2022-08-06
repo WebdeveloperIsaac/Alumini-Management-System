@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(90deg, pink, cyan, rgb(144, 219, 144));
+}
+@media only screen and (min-width: 600px) {
+  body {
+    background: linear-gradient(10deg, black);
+  }
+}
+.form-container {
+  display: block;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.inputs {
+  width: 20vw;
+  margin: 5px;
+  padding: 5px;
+}
+@media only screen and(min-width:600px) {
+  body {
+    width: 30vw;
+  }
+}
+.btn {
+  padding: 8px;
+  border-radius: 5px;
+  background-color: rgb(58, 245, 173);
+  font-size: large;
+}
+.btn:hover {
+  background-color: rgb(36, 35, 35);
+  color: white;
+}

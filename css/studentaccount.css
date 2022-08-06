@@ -1,0 +1,26 @@
+body {
+  padding: 0;
+  background: linear-gradient(90deg, pink, cyan, rgb(144, 219, 144));
+  text-align: center;
+}
+
+h1 {
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ips {
+  width: 30vw;
+  padding: 10px;
+  margin: 10px;
+}
+.btn {
+  background-color: rgb(8, 255, 62);
+  font-family: "Times New Roman", Times, serif;
+  size: 20px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}

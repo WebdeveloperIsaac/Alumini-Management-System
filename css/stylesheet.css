@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700italic);
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #2c3e50;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+button {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+p {
+  color: #fff;
+  text-align: center;
+  padding-top: 500px;
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #2ecc71;
+}
+
+.main {
+  width: 100%;
+}
+
+.sub-main {
+  width: 30%;
+  margin: 22px;
+  float: left;
+}
+
+.button-one,
+.button-two,
+.button-three {
+  text-align: center;
+  cursor: pointer;
+  font-size: 24px;
+  margin: 0 0 0 100px;
+}
+
+/*Button One*/
+.button-one {
+  padding: 20px 30px;
+  outline: none;
+  background-color: #27ae60;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 9px #95a5a6;
+}
+
+.button-one:hover {
+  background-color: #2ecc71;
+}
+
+.button-one:active {
+  background-color: #2ecc71;
+  box-shadow: 0 5px #95a5a6;
+  transform: translateY(4px);
+}
+
+/*Button Two*/
+.button-two {
+  border-radius: 4px;
+  background-color: #d35400;
+  border: none;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+}
+
+.button-two span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-two span:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-two:hover span {
+  padding-right: 2px;
+}
+
+.button-two:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*Button Three*/
+.button-three {
+  position: relative;
+  background-color: #f39c12;
+  border: none;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.button-three:hover {
+  background: rgb(17, 187, 209);
+  box-shadow: 0px 2px 10px 5px #97b1bf;
+  color: #000;
+}
+
+.button-three:after {
+  content: "";
+  background: #f1c40f;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.button-three:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
